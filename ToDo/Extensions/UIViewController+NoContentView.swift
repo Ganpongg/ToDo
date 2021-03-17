@@ -10,7 +10,9 @@ import UIKit
 
 extension UIViewController {
     func createNoContentView() -> UIView {
-        let noContentView = UIView()
+        let noContentView = UILabel()
+        noContentView.text = "Don't have any items"
+        noContentView.textAlignment = .center
         noContentView.isHidden = true
         view.addSubview(noContentView)
         noContentView.translatesAutoresizingMaskIntoConstraints = false
@@ -18,16 +20,6 @@ extension UIViewController {
         noContentView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         noContentView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         noContentView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        
-        let noContentLabel = UILabel()
-        noContentLabel.text = "Don't have any items"
-        noContentLabel.textAlignment = .center
-        noContentView.addSubview(noContentLabel)
-        noContentLabel.translatesAutoresizingMaskIntoConstraints = false
-        noContentLabel.topAnchor.constraint(equalTo: noContentView.topAnchor).isActive = true
-        noContentLabel.leftAnchor.constraint(equalTo: noContentView.leftAnchor).isActive = true
-        noContentLabel.rightAnchor.constraint(equalTo: noContentView.rightAnchor).isActive = true
-        noContentLabel.bottomAnchor.constraint(equalTo: noContentView.bottomAnchor).isActive = true
         
         return noContentView
     }
