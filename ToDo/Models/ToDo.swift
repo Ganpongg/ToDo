@@ -11,11 +11,21 @@ import Foundation
 class ToDoListResponse: Decodable {
     var count: Int?
     var data: [ToDo]?
+    
+    init(count: Int?, data: [ToDo]?) {
+        self.count = count
+        self.data = data
+    }
 }
 
 class ToDoResponse: Decodable {
     var success: Bool?
     var data: ToDo?
+    
+    init(success: Bool?, data: ToDo?) {
+        self.success = success
+        self.data = data
+    }
 }
 
 class ToDo: Decodable {
@@ -27,5 +37,11 @@ class ToDo: Decodable {
         case id = "_id"
         case description
         case completed
+    }
+    
+    init(id: String?, description: String?, completed: Bool?) {
+        self.id = id
+        self.description = description
+        self.completed = completed
     }
 }

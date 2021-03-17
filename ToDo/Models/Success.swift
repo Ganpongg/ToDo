@@ -10,4 +10,8 @@ import Foundation
 
 class Success: Decodable {
     var success: Bool?
+    
+    init(success: Bool?) {
+        self.success = success
+    }
 }

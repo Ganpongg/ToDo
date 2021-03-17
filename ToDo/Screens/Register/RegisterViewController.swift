@@ -49,6 +49,8 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var ageTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var clearButton: UIButton!
     
     @IBAction func submitButtonTapped(_ sender: Any) {
         guard !(nameTextField.text?.isEmpty ?? true),

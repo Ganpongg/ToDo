@@ -26,6 +26,22 @@
 		CE5A8BDC25FD206600C994F5 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A8BD625FD206600C994F5 /* RegisterInteractor.swift */; };
 		CE5A8BDF25FD22D100C994F5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A8BDE25FD22D100C994F5 /* UserService.swift */; };
 		CE5A8BE125FD22DB00C994F5 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A8BE025FD22DB00C994F5 /* TaskService.swift */; };
+		CE7EB84926021FAA00CCC2D3 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB84626021FAA00CCC2D3 /* LoginViewControllerTests.swift */; };
+		CE7EB84A26021FAA00CCC2D3 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB84726021FAA00CCC2D3 /* LoginInteractorTests.swift */; };
+		CE7EB84B26021FAB00CCC2D3 /* LoginPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB84826021FAA00CCC2D3 /* LoginPresenterTests.swift */; };
+		CE7EB857260232D300CCC2D3 /* RegisterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB854260232D300CCC2D3 /* RegisterViewControllerTests.swift */; };
+		CE7EB858260232D300CCC2D3 /* RegisterInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB855260232D300CCC2D3 /* RegisterInteractorTests.swift */; };
+		CE7EB859260232D300CCC2D3 /* RegisterPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB856260232D300CCC2D3 /* RegisterPresenterTests.swift */; };
+		CE7EB86126023AD600CCC2D3 /* ToDoDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB85E26023AD600CCC2D3 /* ToDoDetailViewControllerTests.swift */; };
+		CE7EB86226023AD600CCC2D3 /* ToDoDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB85F26023AD600CCC2D3 /* ToDoDetailInteractorTests.swift */; };
+		CE7EB86326023AD600CCC2D3 /* ToDoDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB86026023AD600CCC2D3 /* ToDoDetailPresenterTests.swift */; };
+		CE7EB86926023AE600CCC2D3 /* ToDoListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB86626023AE600CCC2D3 /* ToDoListViewControllerTests.swift */; };
+		CE7EB86A26023AE600CCC2D3 /* ToDoListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB86726023AE600CCC2D3 /* ToDoListInteractorTests.swift */; };
+		CE7EB86B26023AE600CCC2D3 /* ToDoListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB86826023AE600CCC2D3 /* ToDoListPresenterTests.swift */; };
+		CE7EB87026023CFE00CCC2D3 /* UserServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB86F26023CFE00CCC2D3 /* UserServiceStub.swift */; };
+		CE7EB87626023D0700CCC2D3 /* TaskServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB87526023D0700CCC2D3 /* TaskServiceStub.swift */; };
+		CE7EB884260254EF00CCC2D3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB883260254EF00CCC2D3 /* ToDo.swift */; };
+		CE7EB88A260256EB00CCC2D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7EB889260256EB00CCC2D3 /* User.swift */; };
 		CE8BC5302601D86400F94659 /* UIView+Decoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8BC52F2601D86400F94659 /* UIView+Decoration.swift */; };
 		CEA1637025FDE90E00FAC875 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1636F25FDE90E00FAC875 /* User.swift */; };
 		CEA1637225FDE94600FAC875 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1637125FDE94600FAC875 /* ToDo.swift */; };
@@ -88,6 +104,22 @@
 		CE5A8BD625FD206600C994F5 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
 		CE5A8BDE25FD22D100C994F5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		CE5A8BE025FD22DB00C994F5 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		CE7EB84626021FAA00CCC2D3 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		CE7EB84726021FAA00CCC2D3 /* LoginInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorTests.swift; sourceTree = "<group>"; };
+		CE7EB84826021FAA00CCC2D3 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
+		CE7EB854260232D300CCC2D3 /* RegisterViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewControllerTests.swift; sourceTree = "<group>"; };
+		CE7EB855260232D300CCC2D3 /* RegisterInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractorTests.swift; sourceTree = "<group>"; };
+		CE7EB856260232D300CCC2D3 /* RegisterPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenterTests.swift; sourceTree = "<group>"; };
+		CE7EB85E26023AD600CCC2D3 /* ToDoDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		CE7EB85F26023AD600CCC2D3 /* ToDoDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailInteractorTests.swift; sourceTree = "<group>"; };
+		CE7EB86026023AD600CCC2D3 /* ToDoDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailPresenterTests.swift; sourceTree = "<group>"; };
+		CE7EB86626023AE600CCC2D3 /* ToDoListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewControllerTests.swift; sourceTree = "<group>"; };
+		CE7EB86726023AE600CCC2D3 /* ToDoListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListInteractorTests.swift; sourceTree = "<group>"; };
+		CE7EB86826023AE600CCC2D3 /* ToDoListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListPresenterTests.swift; sourceTree = "<group>"; };
+		CE7EB86F26023CFE00CCC2D3 /* UserServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceStub.swift; sourceTree = "<group>"; };
+		CE7EB87526023D0700CCC2D3 /* TaskServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskServiceStub.swift; sourceTree = "<group>"; };
+		CE7EB883260254EF00CCC2D3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		CE7EB889260256EB00CCC2D3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE8BC52F2601D86400F94659 /* UIView+Decoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Decoration.swift"; sourceTree = "<group>"; };
 		CEA1636F25FDE90E00FAC875 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEA1637125FDE94600FAC875 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
@@ -193,6 +225,9 @@
 		CE5A8BB525FD1F3900C994F5 /* ToDoTests */ = {
 			isa = PBXGroup;
 			children = (
+				CE7EB882260254E400CCC2D3 /* Mocks */,
+				CE7EB86E26023CEE00CCC2D3 /* Stubs */,
+				CE7EB84426021F7900CCC2D3 /* Screens */,
 				CE5A8BB625FD1F3900C994F5 /* ToDoTests.swift */,
 				CE5A8BB825FD1F3900C994F5 /* Info.plist */,
 			);
@@ -252,6 +287,83 @@
 				CE5A8BE025FD22DB00C994F5 /* TaskService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CE7EB84426021F7900CCC2D3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB84526021F8E00CCC2D3 /* Login */,
+				CE7EB850260232A400CCC2D3 /* Register */,
+				CE7EB851260232AB00CCC2D3 /* ToDo */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE7EB84526021F8E00CCC2D3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB84626021FAA00CCC2D3 /* LoginViewControllerTests.swift */,
+				CE7EB84726021FAA00CCC2D3 /* LoginInteractorTests.swift */,
+				CE7EB84826021FAA00CCC2D3 /* LoginPresenterTests.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CE7EB850260232A400CCC2D3 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB854260232D300CCC2D3 /* RegisterViewControllerTests.swift */,
+				CE7EB855260232D300CCC2D3 /* RegisterInteractorTests.swift */,
+				CE7EB856260232D300CCC2D3 /* RegisterPresenterTests.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		CE7EB851260232AB00CCC2D3 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB853260232C200CCC2D3 /* List */,
+				CE7EB852260232BE00CCC2D3 /* Detail */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		CE7EB852260232BE00CCC2D3 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB85E26023AD600CCC2D3 /* ToDoDetailViewControllerTests.swift */,
+				CE7EB85F26023AD600CCC2D3 /* ToDoDetailInteractorTests.swift */,
+				CE7EB86026023AD600CCC2D3 /* ToDoDetailPresenterTests.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CE7EB853260232C200CCC2D3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB86626023AE600CCC2D3 /* ToDoListViewControllerTests.swift */,
+				CE7EB86726023AE600CCC2D3 /* ToDoListInteractorTests.swift */,
+				CE7EB86826023AE600CCC2D3 /* ToDoListPresenterTests.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		CE7EB86E26023CEE00CCC2D3 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB86F26023CFE00CCC2D3 /* UserServiceStub.swift */,
+				CE7EB87526023D0700CCC2D3 /* TaskServiceStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		CE7EB882260254E400CCC2D3 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EB889260256EB00CCC2D3 /* User.swift */,
+				CE7EB883260254EF00CCC2D3 /* ToDo.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		CEA1636C25FDE84E00FAC875 /* List */ = {
@@ -529,7 +641,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7EB857260232D300CCC2D3 /* RegisterViewControllerTests.swift in Sources */,
+				CE7EB86126023AD600CCC2D3 /* ToDoDetailViewControllerTests.swift in Sources */,
+				CE7EB86926023AE600CCC2D3 /* ToDoListViewControllerTests.swift in Sources */,
+				CE7EB84B26021FAB00CCC2D3 /* LoginPresenterTests.swift in Sources */,
+				CE7EB86A26023AE600CCC2D3 /* ToDoListInteractorTests.swift in Sources */,
+				CE7EB86326023AD600CCC2D3 /* ToDoDetailPresenterTests.swift in Sources */,
+				CE7EB84926021FAA00CCC2D3 /* LoginViewControllerTests.swift in Sources */,
+				CE7EB88A260256EB00CCC2D3 /* User.swift in Sources */,
+				CE7EB84A26021FAA00CCC2D3 /* LoginInteractorTests.swift in Sources */,
+				CE7EB87026023CFE00CCC2D3 /* UserServiceStub.swift in Sources */,
+				CE7EB86226023AD600CCC2D3 /* ToDoDetailInteractorTests.swift in Sources */,
 				CE5A8BB725FD1F3900C994F5 /* ToDoTests.swift in Sources */,
+				CE7EB884260254EF00CCC2D3 /* ToDo.swift in Sources */,
+				CE7EB86B26023AE600CCC2D3 /* ToDoListPresenterTests.swift in Sources */,
+				CE7EB87626023D0700CCC2D3 /* TaskServiceStub.swift in Sources */,
+				CE7EB858260232D300CCC2D3 /* RegisterInteractorTests.swift in Sources */,
+				CE7EB859260232D300CCC2D3 /* RegisterPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
