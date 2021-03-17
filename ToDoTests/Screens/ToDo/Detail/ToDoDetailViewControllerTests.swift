@@ -64,6 +64,8 @@ class ToDoDetailViewControllerTests: XCTestCase {
     }
     
     class ToDoDetailRoutingLogicSpy: NSObject & ToDoDetailDataPassing & ToDoDetailRoutingLogic {
+        var dataStore: ToDoDetailDataStore?
+        
         var routeToToDoListScreenAfterCreateCalled = false
         func routeToToDoListScreenAfterCreate() {
             routeToToDoListScreenAfterCreateCalled = true
@@ -127,6 +129,7 @@ class ToDoDetailViewControllerTests: XCTestCase {
     
     func testDisplayGetToDoDetailShouldDisplayCorrectlyWhenNotHasError() {
         // Given
+        loadView()
         let viewModel = ToDoDetail.GetToDoDetail.ViewModel(toDo: ToDoMocks.ToDoMock, error: nil)
         
         // When
@@ -145,8 +148,6 @@ class ToDoDetailViewControllerTests: XCTestCase {
         
         // Then
         XCTAssertNil(sut.displayToDo)
-        let errorAlertController = sut.presentedViewController as? UIAlertController
-        XCTAssertNotNil(errorAlertController)
     }
     
     func testDisplayCreateToDoShouldCallRouteToToDoListScreenAfterCreateWhenNotHasError() {
